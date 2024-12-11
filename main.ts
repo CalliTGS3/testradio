@@ -1,5 +1,5 @@
-let zahl = 0
 radio.setGroup(1)
+let zahl = 0
 basic.forever(function () {
     radio.sendNumber(0)
     zahl += 1
